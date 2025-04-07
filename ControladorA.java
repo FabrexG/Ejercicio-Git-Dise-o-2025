@@ -1,3 +1,8 @@
-implements panelControl{
-    System.out.println("Hola");
-}
+public class ControladorA implements PanelControl {
+
+    @Override
+    public void evento() {
+        System.out.println("Hola");
+    }
+
+}//ControladorA
